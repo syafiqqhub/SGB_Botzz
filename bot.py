@@ -4,8 +4,8 @@ import requests
 import random
 import os
 
-API_ID = 'YOUR_API_ID'  # Ganti dengan API ID Anda
-API_HASH = 'YOUR_API_HASH'  # Ganti dengan API Hash Anda
+API_ID = '20193822'  # Ganti dengan API ID Anda
+API_HASH = '0dff5148275df0740fa60a8aeb66a8a9'  # Ganti dengan API Hash Anda
 
 client = TelegramClient('group_manager_bot', API_ID, API_HASH)
 
