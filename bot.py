@@ -36,7 +36,7 @@ async def greet_new_member(event):
         group = await event.get_chat()
         user = await client.get_entity(event.sender_id)
         if user.first_name:  # Pastikan ada nama pengguna
-            await client.send_file(event.chat_id, 'welcome_video.mp4', caption=f"Hai {user.first_name}, sila baca deskripsi grup ya! 📜")
+            await client.send_file(event.chat_id, 'https://d.top4top.io/m_3302qdvnx1.mp4', caption=f"Hai {user.first_name}, sila baca deskripsi grup ya! 📜")
 
 @client.on(events.NewMessage())
 async def farewell_member(event):
@@ -44,7 +44,7 @@ async def farewell_member(event):
         group = await event.get_chat()
         user = await client.get_entity(event.sender_id)
         if user.first_name:  # Pastikan ada nama pengguna
-            await client.send_file(event.chat_id, 'farewell_video.mp4', caption=f"Selamat Tinggal {user.first_name}, harap datang kembali! 👋")
+            await client.send_file(event.chat_id, 'https://h.top4top.io/m_330242orb1.mp4', caption=f"Selamat Tinggal {user.first_name}, harap datang kembali! 👋")
 
 @client.on(events.NewMessage(pattern=r'\.cekganteng (.+)'))
 async def cek_ganteng(event):
@@ -99,4 +99,4 @@ async def main():
 
 with c
 lient:
-    client.loop.run_until_complete(main())
+    client.loop.run_until_comple
